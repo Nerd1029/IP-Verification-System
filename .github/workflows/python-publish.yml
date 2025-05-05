@@ -16,23 +16,17 @@ jobs:
       name: pypi
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.13.2'
 
-      - name: Install build tool
+      - name: Install build tools
         run: python -m pip install --upgrade build
 
       - name: Build the package
-        run: |
-          cd IP-Verification-System
-          python -m build
+        run: python -m build
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          packages-dir: IP-Verification-System/dist
