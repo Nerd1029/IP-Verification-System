@@ -1,15 +1,8 @@
 [project]
-name = "IP-Verification-System"
+name = "ipvs"
 version = "0.0.1"
-description = ""
-authors = [{ name="Nerd1029"} ]
+description = "IP verification system"
+authors = [{ name = "Nerd1029", email = "ljbarajr@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.packages.find]
-where = ["."]
