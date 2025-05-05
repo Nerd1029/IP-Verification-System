@@ -1,5 +1,5 @@
 [project]
-name = "ipvs"
+name = "ipvs-lib"
 version = "0.0.1"
 description = "A package for verifying IP addresses"
 authors = [{ name = "Nerd1029", email = "ljbarajr@gmail.com" }]
