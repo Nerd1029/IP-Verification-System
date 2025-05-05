@@ -1,0 +1,12 @@
+[project]
+name = "IP-Verification-System"
+version = "0.1.0"
+description = "A system for verifying IP addresses"
+authors = [{ name="Nerd1029", email="you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.13.2"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
