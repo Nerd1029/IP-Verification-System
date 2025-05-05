@@ -1,3 +1,0 @@
-"""
-IP-Verification-System
-"""
