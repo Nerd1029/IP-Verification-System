@@ -2,7 +2,7 @@
 name = "IP-Verification-System"
 version = "0.0.1"
 description = ""
-authors = [{ name="Nerd1029", email="" }]
+authors = [{ name="Nerd1029"} ]
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
